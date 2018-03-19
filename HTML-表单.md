@@ -2,7 +2,7 @@
 ### 目的/作用：收集用户信息（如注册/登录时）
 ### 注意：标签`<form></form>`包裹住的表单信息能成功提交，form标签外的表单信息提交无效。
 ### 表单标签：
-   - `<input type="xxx" name="xxx" id="xxx">` //inline element
+   - `<input type="xxx" name="xxx" id="xxx">` //inline element<br/>
       - type属性的值：<br/>
          - text     //单行文本框<br/>
          - passport //密码框，输入内容显示为神秘的黑色原点<br/>
