@@ -4,16 +4,16 @@
 ### 表单标签：
    - `<input type="xxx" name="xxx" id="xxx">` //inline element<br/>
       - type属性的值：<br/>
-         `- text     //单行文本框<br/>`
-         - passport //密码框，输入内容显示为神秘的黑色原点<br/>
-         - checkbox //复选框，name属性值相等为“同组”，有checked属性的复选框默认是“选中”状态<br/>
-         - radio    //单选框，name属性值相等为“同组”，有checked属性的复选框默认是“选中”状态<br/>
-         - button   //按钮<br/>
-         - submit   //“提交表单”功能按钮<br/>
-         - file     //上传文件<br/>
-         - hidden   //对用户隐藏的“校验信息”，用于校验用户的合法性、阻止CSRF攻击。<br/>
-         - email_HTML5_  //邮箱地址框，如果邮箱地址输入错误，会给出提示<br/>
-         - number_HTML5_  //数字输入框，限制用户只能输入数字
+         `text     //单行文本框<br/>`
+         `passport //密码框，输入内容显示为神秘的黑色原点<br/>`
+         `checkbox //复选框，name属性值相等为“同组”，有checked属性的复选框默认是“选中”状态<br/>`
+         `radio    //单选框，name属性值相等为“同组”，有checked属性的复选框默认是“选中”状态<br/>`
+         `button   //按钮<br/>`
+         `submit   //“提交表单”功能按钮<br/>`
+         `file     //上传文件<br/>`
+         `hidden   //对用户隐藏的“校验信息”，用于校验用户的合法性、阻止CSRF攻击。<br/>`
+         `email_HTML5_  //邮箱地址框，如果邮箱地址输入错误，会给出提示<br/>`
+         `number_HTML5_  //数字输入框，限制用户只能输入数字`
       - name属性的作用：
          表单提交到后台后，后台接收到的是“键值对”形式的数据-----name:value。<br/>
          这个name就是表单标签的name属性值。<br/>
