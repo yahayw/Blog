@@ -15,14 +15,14 @@
          **hidden**   //对用户隐藏的“校验信息”，用于校验用户的合法性、阻止CSRF攻击。<br/>
          **email_HTML5_**  //邮箱地址框，如果邮箱地址输入错误，会给出提示。<br/>
          **number_HTML5_**  //数字输入框，限制用户只能输入数字。<br/>
-      2. name属性的作用：
+      2. name属性的作用：<br/>
          表单提交到后台后，后台接收到的是“键值对”形式的数据-----name:value。<br/>
          这个name就是表单标签的name属性值。<br/>
          这个value就是用户输入的内容/表单标签的value属性值。<br/>
-      3. id属性的作用：
-         表单标签的id属性往往是为了配合label标签使用，<label for="id属性值">提示输入信息:</label>。
-         `for="id属性值"`确定label提示的是哪个input框。
-         点击label的内容就会focus到对应的input框。
+      3. id属性的作用：<br/>
+         表单标签的id属性往往是为了配合label标签使用，<label for="id属性值">提示输入信息:</label>。<br/>
+         `for="id属性值"`确定label提示的是哪个input框。<br/>
+         点击label的内容就会focus到对应的input框。<br/>
         举例：<br/>
             `<label for="name">请输入姓名：</label>`
             `<input type="text" id="name">`
