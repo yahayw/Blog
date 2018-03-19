@@ -4,7 +4,7 @@
 ### 表单标签：
    - `<input type="xxx" name="xxx" id="xxx">` //inline element<br/>
       - type属性的值：<br/>
-         - text     //单行文本框<br/>
+         `- text     //单行文本框<br/>`
          - passport //密码框，输入内容显示为神秘的黑色原点<br/>
          - checkbox //复选框，name属性值相等为“同组”，有checked属性的复选框默认是“选中”状态<br/>
          - radio    //单选框，name属性值相等为“同组”，有checked属性的复选框默认是“选中”状态<br/>
