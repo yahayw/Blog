@@ -3,8 +3,8 @@
 ### 注意：标签`<form></form>`包裹住的表单信息能成功提交，form标签外的表单信息提交无效。
 ### 表单标签：
    - `<input type="xxx" name="xxx" id="xxx">` //inline element<br/>
-      1. type属性的值：
-      2. name属性的作用：
+      1. type属性的值：呃。
+      2. name属性的作用：
          表单提交到后台后，后台接收到的是“键值对”形式的数据-----name:value。<br/>
          这个name就是表单标签的name属性值。<br/>
          这个value就是用户输入的内容/表单标签的value属性值。<br/>
