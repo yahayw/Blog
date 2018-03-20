@@ -39,10 +39,10 @@
 #### 表单包裹标签
      `<form action="" method="get/post">各种收集信息的表单标签</form>`
      <br/>
-     **action
+     **action : 
 一个处理这个form信息的程序所在的URL。这个值可以被 <button> 或者 <input> 元素中的 formaction 属性重载（覆盖）**
    <br/>
-   **method
+   **method : 
 浏览器使用这种 HTTP 方式来提交 form. 可能的值有:get（默认）和post。**
    <br/>
 1. post: 指的是 HTTP POST 方法  表单数据会包含在表单体内然后发送给服务器.
