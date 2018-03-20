@@ -24,16 +24,18 @@
          `for="id属性值"`确定label提示的是哪个input框。<br/>
          点击label的内容就会focus到对应的input框。<br/>
          _举例：<br/>
-            `<label for="name">请输入姓名：</label>`
-            `<input type="text" id="name">`
-            `<!--点击label标签，id属性值和 label标签的for属性值 相等的input标签就会处于focus状态，可以在里面输入内容-->`_
+         ```
+            <label for="name">请输入姓名：</label>
+            <input type="text" id="name">
+            <!--点击label标签，id属性值和 label标签的for属性值 相等的input标签就会处于focus状态，可以在里面输入内容-->
+         ```
    - select标签 
-   ```
+  ```
        <select name="">
             <option value="">...</option>
             <option value="" selected>...</option>
             <option value="">...</option>
        </select>
-       ```
+  ```
        //默认显示出有selected属性的子元素<br/>
    - textarea标签
