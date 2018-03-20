@@ -1,7 +1,7 @@
 ## HTML表单
 ### 目的/作用：收集用户信息（如注册/登录时）
 ### 注意：标签`<form></form>`包裹住的表单信息能成功提交，form标签外的表单信息提交无效。
-### 表单标签：
+### 表单标签1：
    #### `<input type="xxx" name="xxx" id="xxx">` //inline element<br/>
       1. **type属性**的值：
          <br/>
@@ -30,7 +30,7 @@
             <br/>
             `<!--点击label标签，id属性值和 label标签的for属性值 相等的input标签就会处于focus状态，可以在里面输入内容-->`
             <br/>
-   <br/> #### `select标签 `
+#### `select标签 `
      ```
        <select name="">
             <option value="">...</option>
@@ -39,4 +39,4 @@
        </select>
      ```
        //默认显示出有selected属性的子元素<br/>
-   <br/> #### `textarea标签`
+#### `textarea标签`
