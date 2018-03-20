@@ -37,7 +37,7 @@
       - <button>提交</button> 需要在form标签包裹下，否则就是普通按钮
       - <input type="submit" value="提交">
 #### 表单包裹标签
-     <form action="" method="get/post">各种收集信息的表单标签</form>
+     `<form action="" method="get/post">各种收集信息的表单标签</form>`
      **action
 一个处理这个form信息的程序所在的URL。这个值可以被 <button> 或者 <input> 元素中的 formaction 属性重载（覆盖）**
    **method
