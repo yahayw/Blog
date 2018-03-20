@@ -28,10 +28,10 @@
             `<input type="text" id="name">`
             `<!--点击label标签，id属性值和 label标签的for属性值 相等的input标签就会处于focus状态，可以在里面输入内容-->`_
    - select标签 
-       <select name=""><br/>
+       `<select name=""><br/>
             <option value="">...</option><br/>
             <option value="" selected>...</option><br/>
             <option value="">...</option><br/>
-       </select><br/>
+       </select>`<br/>
        //默认显示出有selected属性的子元素<br/>
    - textarea标签
