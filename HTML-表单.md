@@ -27,7 +27,6 @@
             <label for="name">请输入姓名：</label>
             <input type="text" id="name">
             <!--点击label标签，id属性值和 label标签的for属性值 相等的input标签就会处于focus状态，可以在里面输入内容-->
-     <br/>
    select标签 
    ----------
    ----------
