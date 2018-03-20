@@ -23,17 +23,14 @@
          表单标签的id属性往往是为了配合label标签使用，<label for="id属性值">提示输入信息:</label>。<br/>
          `for="id属性值"`确定label提示的是哪个input框。<br/>
          点击label的内容就会focus到对应的input框。<br/>
-         举例：<br/>
-         ```
-         <label for="name">请输入姓名：</label>
-         <input type="text" id="name">
-         <!--点击label标签，id属性值和 label标签的for属性值 相等的input标签就会处于focus状态，可以在里面输入内容-->
-         ```
 #### `select标签 `<br/>
        <select name="">
             <option value="">...</option>
             <option value="" selected>...</option>
             <option value="">...</option>
        </select>
+       //下拉菜单
        //默认显示出有selected属性的子元素<br/>
-#### `textarea标签`
+#### `textarea标签`多行文本
+      <textarea name="" cols="" rows="">多行文本框</textarea>
+
