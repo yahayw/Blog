@@ -34,8 +34,8 @@
 #### `textarea标签`多行文本
       <textarea name="" cols="" rows="">多行文本框</textarea>
 #### 提交表单功能按钮
-      - <button>提交</button> 需要在form标签包裹下，否则就是普通按钮
-      - <input type="submit" value="提交">
+      - `<button>提交</button>` 需要在form标签包裹下，否则就是普通按钮
+      - `<input type="submit" value="提交">`
 #### 表单包裹标签
      `<form action="" method="get/post">各种收集信息的表单标签</form>`
      <br/>
