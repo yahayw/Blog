@@ -63,34 +63,35 @@ let的效果：
 假设一个块内部有let命令声明的变量，块外有同名变量，那么在块内的lei声明变量的前面使用同名变量，会被视作为lei声明的变量----在let声明前使用会报错。
 来看一看这句话的代码表述：
     ```
-    var num = 3;
-		if(true){
-			console.log(num); //报错：Uncaught ReferenceError: num is not defined
-			let num = "num";
-		}
+        var num = 3;
+	if(true){
+		console.log(num); //报错：Uncaught ReferenceError: num is not defined
+		let num = "num";
+	}
     ```
-块里无let命令的运行结果如下：
+块里无let声明和块外同名的变量：
     ```
-    var num =3;
-		if(true){
-			console.log(num) //3
-		}
+        let num =3;
+	if(true){
+		console.log(num) //3
+		let b = 4;
+	}
     ```
     
 4. 不允许同一块作用域下重复声明同一变量
     ```
-    if(true){
-			let a = 1;
-			var a = 2; //报错
-		}
+        if(true){
+		let a = 1;
+		var a = 2; //报错
+	}
     ```
     
     ```
-    function func() {
+        function func() {
 		  let a = 1;
 		  let a = 2;
-		}
-		func() //报错
+	}
+	func() //报错
     ```
     
     ```
