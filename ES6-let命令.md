@@ -32,7 +32,16 @@ let的效果：
 		console.log(i) //报错：Uncaught ReferenceError: i is not defined，因为let生成了块级作用域
     ```
 缺少块级作用域的坏影响有：内层同名变量会覆盖外层同名变量，如下代码
-
+    ```
+    var tmp = new Date();
+    function f() {
+      console.log(tmp);
+      if (false) {
+        var tmp = 'hello world';
+      }
+    }
+    f(); // undefined
+    ```
 
 
 
@@ -82,6 +91,16 @@ let的效果：
 		  let a = 2;
 		}
 		func() //报错
+    ```
+    
+    ```
+	for(let i=0; i<10; i++){ //i在()的块级作用域中
+		let i="string"; //不报错 i在{}块级作用域中
+		// let i = true; //报错，i在{}块级作用域中
+		if(true){
+			let i=100;//不报错，i在{}的{}块级作用域中
+		}
+	}
     ```
    
 
