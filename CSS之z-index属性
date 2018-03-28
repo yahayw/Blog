@@ -1,0 +1,13 @@
+z-index属性作用：
+z-index作用元素：
+z-index属性的作用规则：
+  代码示范：
+    ```
+    	<div class="parent1">
+          <div class="child1"></div>
+      </div>
+      <div class="parent2">
+          <div class="child2"></div>
+      </div>  
+    ```
+    
