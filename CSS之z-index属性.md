@@ -73,11 +73,11 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
     2.parent2的z-index值 设置得 比parent1大，如
     <br/>
     ```
-	.parent1 {
-		z-index: 2;
-	}
-	.parent2 {
-		z-index: 1;
-	}
+    .parent1 {
+       z-index: 2;
+    }
+    .parent2 {
+       z-index: 1;
+    }
     ```
     <br/>
