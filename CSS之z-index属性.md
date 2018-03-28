@@ -23,7 +23,7 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
   代码示范：
   <br/>
   
-    ```    
+     
     <!--HTML主要代码-->
     <div class="parent1">
       <div class="child1"></div>
@@ -50,7 +50,7 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
 	.child2 {
 		z-index: 100;
 	}
-    ```
+
 
  ![结果如图，注意元素的层叠顺序](https://github.com/yahayw/Blog/blob/master/blog-imgs/z-index.PNG)
     <br/>
