@@ -36,5 +36,5 @@ z-index属性的作用规则：
 	}
     ```
 
- ![结果如图，注意元素的层叠顺序]("./blog-imgs/z-index.png")
+ ![结果如图，注意元素的层叠顺序](https://github.com/yahayw/Blog/blob/master/blog-imgs/z-index.PNG)
     
