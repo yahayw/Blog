@@ -16,7 +16,7 @@ z-index的作用：控制元素在z轴上的层叠顺序。
 z轴上z-index值更小的元素会在z-index值更大的元素的下面，离人眼更远。 **`z-index:auto;`的元素不会参与层级高低的比较**
 <br/>
 <br/>
-z-index属性的作用规则：
+z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，越靠近人眼，但是...看下面
 <br/>
   代码示范：
   <br/>
@@ -60,6 +60,7 @@ z-index属性的作用规则：
     我想到了2个方法：
     <br/>
     1.改变DOM顺序
+    <br/>
     ```
     <div class="parent2">
       <div class="child2"></div>
@@ -68,7 +69,9 @@ z-index属性的作用规则：
       <div class="child1"></div>
     </div>
     ```
+    <br/>
     2.parent2的z-index值 设置得 比parent1大，如
+    <br/>
     ```
 	.parent1 {
 		z-index: 2;
@@ -77,3 +80,4 @@ z-index属性的作用规则：
 		z-index: 1;
 	}
     ```
+    <br/>
