@@ -64,16 +64,16 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
     <br/>
     
     ```
-    <div class="parent2">
-      <div class="child2"></div>
-    </div>
-    <div class="parent1">
-      <div class="child1"></div>
-    </div>
+	<div class="parent2">
+		<div class="child2"></div>
+	</div>
+	<div class="parent1">
+		<div class="child1"></div>
+	</div>
     ```
     
     <br/>
-    2.parent2的z-index值 设置得 比parent1大，如
+    2.parent1的z-index值 设置得 比parent2大，如
     <br/>
     
     ```
@@ -85,4 +85,3 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
     }
     ```
     
-    <br/>
