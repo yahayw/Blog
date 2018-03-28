@@ -51,6 +51,7 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
     ```
 
  ![结果如图，注意元素的层叠顺序](https://github.com/yahayw/Blog/blob/master/blog-imgs/z-index.PNG)
+    <br/>
     看看上图结果，为什么明明 元素child1的z-index值 比 child1的z-index值 大,元素child1的层级却比元素child2的层级要低呢？
     <br/>
     答案的关键在于，**两个子元素的 非static父元素的 z-index值的比较**，.parent1和.parent2的z-index值相等，那么按照布局顺序会导致.paret2在.parent1的上面，由此带来的影响是，.parent2的子元素.child2会在.parent1的子元素.child1的上面，这就类似父代拥有的"优势"“继承”给了孩子。
@@ -61,6 +62,7 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
     <br/>
     1.改变DOM顺序
     <br/>
+    
     ```
     <div class="parent2">
       <div class="child2"></div>
@@ -69,9 +71,11 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
       <div class="child1"></div>
     </div>
     ```
+    
     <br/>
     2.parent2的z-index值 设置得 比parent1大，如
     <br/>
+    
     ```
     .parent1 {
        z-index: 2;
@@ -80,4 +84,5 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
        z-index: 1;
     }
     ```
+    
     <br/>
