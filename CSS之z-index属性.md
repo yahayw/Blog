@@ -15,8 +15,6 @@ z-index属性的作用规则：
     <div class="parent2">
       <div class="child2"></div>
     </div>
-    ```
-    ```
     /*CSS主要代码*/
 	.parent1,
 	.parent2,
@@ -38,5 +36,5 @@ z-index属性的作用规则：
 	}
     ```
 
- ![结果如图，注意元素的层叠顺序](imgs/z-index.png)
+ ![结果如图，注意元素的层叠顺序](blog-imgs/z-index.png)
     
