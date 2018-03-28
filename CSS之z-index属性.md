@@ -1,6 +1,8 @@
 ### 简述：
 z-index作用的元素：非static定位元素。
+<br/>
 z-index的作用：控制元素在z轴上的层叠顺序。
+<br/>
 注意点：子元素的z-index值即使设置的天大，如99999，但是子元素在z轴上的层叠高低仍旧受限于"其第一个非static定位的父元素的z-index值"。
 
 
@@ -60,7 +62,7 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
     <br/>
     我想到了2个方法：
     <br/>
-    1.改变DOM顺序
+   1.改变DOM顺序
     <br/>
     
     ```
@@ -72,8 +74,7 @@ z-index属性的作用规则：一般来说z-index越大，堆叠层级越高，
 	</div>
     ```
     
-    <br/>
-    2.parent1的z-index值 设置得 比parent2大，如
+   2.parent1的z-index值 设置得 比parent2大，如
     <br/>
     
     ```
