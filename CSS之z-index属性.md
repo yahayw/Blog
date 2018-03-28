@@ -13,24 +13,24 @@ z-index属性的作用规则：
     ```
     ```
     /*CSS主要代码*/
-    .parent1,
-    .parent2,
-    .child1,
-    .child2 {
-			position: absolute;      
-    }
-		.parent1 {
-			z-index: 1;
-		}
-		.parent2 {
-			z-index: 1;
-		}
-		.child1 {
-			z-index: 200;
-		}
-		.child2 {
-			z-index: 100;
-		}
+	.parent1,
+	.parent2,
+	.child1,
+	.child2 {
+	position: absolute;      
+	}
+	.parent1 {
+		z-index: 1;
+	}
+	.parent2 {
+		z-index: 1;
+	}
+	.child1 {
+		z-index: 200;
+	}
+	.child2 {
+		z-index: 100;
+	}
     ```
     [结果如图，注意元素的层叠顺序](imgs/z-index.png)
     
