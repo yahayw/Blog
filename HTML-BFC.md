@@ -33,7 +33,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
    		}
    ```
 
-   ![父子外边距合并为20px](0)
+   ![父子外边距合并为20px](https://github.com/yahayw/Blog/blob/master/blog-imgs/%E7%88%B6%E5%AD%90%E5%A4%96%E8%BE%B9%E8%B7%9D%E5%90%88%E5%B9%B60.PNG)
 
    **从这个例子得到：父子的垂直外边距如果只有一个，那么这个垂直外边距会加在父元素上**
 
@@ -67,7 +67,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
 
    结果如图
 
-   ![父子外边距合并为20px](0)
+   ![父子外边距合并为20px](https://github.com/yahayw/Blog/blob/master/blog-imgs/%E7%88%B6%E5%AD%90%E5%A4%96%E8%BE%B9%E8%B7%9D%E5%90%88%E5%B9%B60.PNG)
 
    得到的结果和.ct元素没有加margin-top:20px时是一样的。
 
@@ -101,7 +101,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
 
    将父元素的margin-top设置为10px，子元素的margin-top设置为20px，得到的结果如下图：
 
-   ![父子垂直外边距合并为20px](0)
+   ![父子垂直外边距合并为20px](https://github.com/yahayw/Blog/blob/master/blog-imgs/%E7%88%B6%E5%AD%90%E5%A4%96%E8%BE%B9%E8%B7%9D%E5%90%88%E5%B9%B60.PNG)
 
    父子都设置了垂直外边距，但是结果是垂直外边距只加在了父元素上，值大小不等于父元素设置的10px，而是等于子元素设置的20px，为什么？
 
@@ -135,7 +135,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
 
    得到的结果如下图：
 
-   ![父子元素垂直外边距合并为20px](0)
+   ![父子元素垂直外边距合并为20px](https://github.com/yahayw/Blog/blob/master/blog-imgs/%E7%88%B6%E5%AD%90%E5%A4%96%E8%BE%B9%E8%B7%9D%E5%90%88%E5%B9%B60.PNG)
 
    **猜想得到验证，的确当父子元素都设置了垂直外边距时，结果会只把垂直外边距加在父元素上，且会选择那个更大的垂直外边距值。**
 
@@ -171,7 +171,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
    		}
    ```
 
-   ![如图](1)
+   ![如图](https://github.com/yahayw/Blog/blob/master/blog-imgs/%E7%88%B6%E5%AD%90%E5%A4%96%E8%BE%B9%E8%B7%9D%E5%90%88%E5%B9%B61.PNG)
 
    .wrap元素没有了border，也会垂直外边距合并，垂直外边距加到.wrap元素上，可见**父元素加border可以阻止父子元素外边距合并**。（父元素加padding也可以做到阻止父子元素垂直外边距合并）
 
@@ -204,7 +204,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
 
    结果如图：
 
-   ![BFC使父子垂直外边距不再合并](BFC)
+   ![BFC使父子垂直外边距不再合并](https://github.com/yahayw/Blog/blob/master/blog-imgs/BFC%E8%A7%A3%E5%86%B3%E7%88%B6%E5%AD%90%E5%A4%96%E8%BE%B9%E8%B7%9D%E5%90%88%E5%B9%B6.PNG)
 
    ​
 
@@ -239,7 +239,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
    		}
    ```
 
-   ![父容器感受不到浮动元素]()
+   ![父容器感受不到浮动元素](https://github.com/yahayw/Blog/blob/master/blog-imgs/%E7%88%B6%E5%AE%B9%E5%99%A8%E6%84%9F%E5%8F%97%E4%B8%8D%E5%88%B0%E6%B5%AE%E5%8A%A8%E5%85%83%E7%B4%A0.PNG)
 
    BFC说它能解决“爸爸不认识孩子”的问题，我们来验证：
 
@@ -266,7 +266,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
 
    效果如图所示：
 
-   ![BFC解决父容器高度塌陷问题]()
+   ![BFC解决父容器高度塌陷问题](https://github.com/yahayw/Blog/blob/master/blog-imgs/BFC%E8%A7%A3%E5%86%B3%E7%88%B6%E5%AE%B9%E5%99%A8%E9%AB%98%E5%BA%A6%E5%A1%8C%E9%99%B7%E9%97%AE%E9%A2%98.PNG)
 
    **BFC成功解决了身为浮动元素的父容器元素的高度塌陷问题**
 
@@ -296,7 +296,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
 
 结果如下图所示：
 
-![浮动元素被行框围绕]()
+![浮动元素被行框围绕](https://github.com/yahayw/Blog/blob/master/blog-imgs/%E6%B5%AE%E5%8A%A8%E5%85%83%E7%B4%A0%E8%A2%AB%E8%A1%8C%E6%A1%86%E5%9B%B4%E7%BB%95.PNG)
 
 结果显示：**普通文档流元素的布局是不受浮动元素影响的，但是普通文档流元素中耳朵文本内容却默认能“看见”浮动元素，文本知道浮动元素在那就腾出空间给浮动元素。**
 
@@ -325,7 +325,7 @@ BFC有一些特性，这些特性可以用来解决实际问题，详细介绍�
 
 结果如下图：
 
-![BFC解决行框围绕浮动元素的问题]()
+![BFC解决行框围绕浮动元素的问题](https://github.com/yahayw/Blog/blob/master/blog-imgs/BFC%E8%A7%A3%E5%86%B3%E8%A1%8C%E6%A1%86%E5%9B%B4%E7%BB%95%E6%B5%AE%E5%8A%A8%E5%85%83%E7%B4%A0.PNG)
 
 生成了BFC的普通元素能看得见浮动元素。
 
