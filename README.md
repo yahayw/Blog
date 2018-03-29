@@ -6,3 +6,4 @@
 ### [ES6-let](https://github.com/yahayw/Blog/blob/master/ES6-let%E5%91%BD%E4%BB%A4.md)
 ### [CSS之 z-index](https://github.com/yahayw/Blog/blob/master/CSS%E4%B9%8Bz-index%E5%B1%9E%E6%80%A7.md)
 ### [HTML之 BFC](https://github.com/yahayw/Blog/blob/master/HTML-BFC.md)
+### [HTML之 标签语义化](https://github.com/yahayw/Blog/blob/master/HTML-%E6%A0%87%E7%AD%BE%E8%AF%AD%E4%B9%89%E5%8C%96.md)
